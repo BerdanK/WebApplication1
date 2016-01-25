@@ -24,6 +24,7 @@ namespace WebApplication1.Controllers
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
+            //deneme
             UserManager = userManager;
             SignInManager = signInManager;
         }
